@@ -24,10 +24,11 @@
 
 	#hero {
     background-image: url("/img/backgroundprinc.png");
-    background-position: center;
+    background-position: center ;
+	background-size: cover;
 	background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 	user-select: none;
 	border: none;
 }
