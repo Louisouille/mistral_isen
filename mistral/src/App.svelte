@@ -25,11 +25,11 @@
 
 	const handleMouse = (m)=>{
 		if(!moveLeft && !moveRight){
-			if(m.clientX < 15){
+			if(m.clientX < 25){
 				enteredDiv("left");
-			}else if(m.clientX > 1300){
+			}else if(m.clientX > 1400){
 				enteredDiv("right")
-			}else if (m.clientX > 15 & m.clientX < 1300){
+			}else if (m.clientX > 25 & m.clientX < 1400){
 				leftButton = "-5rem";
 				rightButton ="-5rem";
 			}
