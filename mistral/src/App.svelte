@@ -23,7 +23,7 @@
 
 
 	#hero {
-    background-image: url("/img/background.png");
+    background-image: url("/img/backgroundprinc.png");
     background-position: center;
 	background-repeat: no-repeat;
     width: 100%;
